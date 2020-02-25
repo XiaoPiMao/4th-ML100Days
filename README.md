@@ -11,3 +11,10 @@
 產生隨機預測與誤差資料  
 平均絕對誤差 Mean Absolute Error mae()  
 平均平方誤差 Mean Squared Error mse()
+
+## Day2
+DL∈ML∈AI  
+ML組成與應用:  
+1. 監督式學習 Supervised Learning
+2. 非監督式學習 Unsupervised Learning
+3. 強化學習 Reinforcement Learning
