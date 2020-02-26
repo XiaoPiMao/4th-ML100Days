@@ -18,3 +18,6 @@ ML組成與應用:
 1. 監督式學習 Supervised Learning
 2. 非監督式學習 Unsupervised Learning
 3. 強化學習 Reinforcement Learning
+
+## Day3
+機器學習開方流程: 資料 -> 定目標和評估準則 -> 建立模型 -> 導入資料  
