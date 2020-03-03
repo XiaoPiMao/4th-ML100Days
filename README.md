@@ -23,7 +23,9 @@ EDA Exploratory Data Analysis 探索資料分析
 ### Day5
 pandas.DataFrame  
 讀取 [txt, json, mat, 圖片, npy, pkl]
-## Day6
+### Day6
 欄位變數可分: 離散變數, 連續變數  
 DataFrame資料大致分: float64, int64, object:字串或其他  
 Object類別分析: Label Encoding, One Hot Encoding
+### Day7
+資料特徵: 數值型, 類別型, 二元, 排序型, 時間型
