@@ -32,5 +32,6 @@ Object類別分析: Label Encoding, One Hot Encoding
 ### Day8
 量化資料:
 1. 計算集中趨勢: Mean, Median, Mode
-2. 計算分散趨勢: Min, Max, Range, Quartiles, Variance, Standard Deviation  
+2. 計算分散趨勢: Min, Max, Range, Quartiles, Variance, Standard Deviation
+
 圖表化工具: matplotlib, seaborn
