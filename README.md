@@ -29,3 +29,8 @@ DataFrame資料大致分: float64, int64, object:字串或其他
 Object類別分析: Label Encoding, One Hot Encoding
 ### Day7
 資料特徵: 數值型, 類別型, 二元, 排序型, 時間型
+### Day8
+量化資料:
+1. 計算集中趨勢: Mean, Median, Mode
+2. 計算分散趨勢: Min, Max, Range, Quartiles, Variance, Standard Deviation
+圖表化工具: matplotlib, seaborn
