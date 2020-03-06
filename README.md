@@ -42,5 +42,5 @@ Object類別分析: Label Encoding, One Hot Encoding
 ### Day10
 離群值處理方式: 捨棄離群值, 可設最大和最小範圍做取代或切割
 ### Day11
-填補資料: median, quantiles, mode, mean
+填補資料: median, quantiles, mode, mean  
 標準化: z轉化, 空間壓縮
