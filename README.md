@@ -35,3 +35,7 @@ Object類別分析: Label Encoding, One Hot Encoding
 2. 計算分散趨勢: Min, Max, Range, Quartiles, Variance, Standard Deviation
 
 圖表化工具: matplotlib, seaborn
+### Day9
+透過分析和繪製圖表發現離群群值(Outlier)  
+處理離群值的方式: 建新欄位紀錄, 取代, 整欄不用  
+箱型圖 Box Plot, 經驗分布圖 ECDF Empirical Cumulative Density Plot, 直方圖 Histogram
