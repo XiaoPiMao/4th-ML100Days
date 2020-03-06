@@ -39,3 +39,5 @@ Object類別分析: Label Encoding, One Hot Encoding
 透過分析和繪製圖表發現離群群值(Outlier)  
 處理離群值的方式: 建新欄位紀錄, 取代, 整欄不用  
 箱型圖 Box Plot, 經驗分布圖 ECDF Empirical Cumulative Density Plot, 直方圖 Histogram
+### Day10
+離群值處理方式: 捨棄離群值, 可設最大和最小範圍做取代或切割
