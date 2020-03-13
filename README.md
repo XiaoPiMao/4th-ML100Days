@@ -47,3 +47,5 @@ Object類別分析: Label Encoding, One Hot Encoding
 ### Day12
 填補缺失資料: median, mean, mode, 指定值, 預測值
 標準化的意義: 平衡數值特徵間的影響力
+### Day13
+pd.DataFrame常用的操作: concat,cut,groupby...
