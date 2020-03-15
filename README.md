@@ -51,3 +51,7 @@ Object類別分析: Label Encoding, One Hot Encoding
 pd.DataFrame常用的操作: concat,cut,groupby...
 ### Day14
 相關係數 Correlation Coefficient
+### Day15
+Correlation Coefficient實例  
+當y值只有[0,1]時，可以將x,y反轉並以原y值當分組依據繪製Box Plot  
+當y值範圍很大，大多數的y值都分布在偏小的範圍時，可以利用Log Scale來壓縮y值
