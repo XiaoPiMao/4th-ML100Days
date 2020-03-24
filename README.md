@@ -60,3 +60,5 @@ Correlation Coefficient實例
 ### Day17
 連續變數離散化好處: 可能性變少, 受離散值影響少  
 離散化方法: 等寬劃分 pd.cut, 等頻劃分 pd.qcut, 聚類劃分, 自訂劃分
+### Day18
+連續變數離散化實際練習
