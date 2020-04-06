@@ -68,3 +68,5 @@ Subplots
 Heatmap & Grid Plot
 ### Day21
 模型初體驗: Logistic Regression
+### Day22
+特徵工程: 將數據轉化為可評分的目標資料
