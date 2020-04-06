@@ -64,3 +64,5 @@ Correlation Coefficient實例
 連續變數離散化實際練習
 ### Day19
 Subplots
+### Day20
+Heatmap & Grid Plot
