@@ -66,3 +66,5 @@ Correlation Coefficient實例
 Subplots
 ### Day20
 Heatmap & Grid Plot
+### Day21
+模型初體驗: Logistic Regression
