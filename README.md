@@ -73,4 +73,8 @@ Heatmap & Grid Plot
 ### Day23
 去偏執化: log1p, sqrt, boxcox
 ### Day24
-One Hot Encoding 所需儲存空間和計算時間較大
+One Hot Encoding 所需儲存空間和計算時間較大  
+| 編碼種類 | 儲存空間/機算時間 | 適用學習模型 |
+| :------------- | :----------: | :-----------: |
+| Label Encoding | 小 | 非深度學習 |
+| One Hot Encoding | 大 | 深度學習 |
