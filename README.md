@@ -70,3 +70,5 @@ Heatmap & Grid Plot
 模型初體驗: Logistic Regression
 ### Day22
 特徵工程: 將數據轉化為可評分的目標資料
+### Day23
+去偏執化: log1p, sqrt, boxcox
