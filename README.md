@@ -82,4 +82,5 @@ One Hot Encoding 所需儲存空間和計算時間較大
 類別特徵與目標有明顯相關時可以使用均值編碼  
 均值編碼會有Overfitting的問題  
 可以用平滑式調整加以修正  
+  
 ![](http://latex.codecogs.com/gif.latex?\frac{\overline{t}\times&space;tn&space;&plus;&space;\overline{a}\times&space;x}{tn&plus;x})  
