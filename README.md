@@ -87,3 +87,9 @@ One Hot Encoding 所需儲存空間和計算時間較大
 ### Day26 類別型特徵-進階處理
 * 記數編碼: 該欄位類別比數與目標正相關時
 * 特徵雜湊: 欄位類別數過多但需要列入考量的欄位(效果還是不好)
+### Day27 時間型特徵
+常見時間型特徵: 把時間戳記拆分成年,月,日,...  
+可以用sin/cos的方式計算週期循環  
+e.x.一年四季溫度正: 熱,負: 冷  
+  
+![](http://latex.codecogs.com/gif.latex?-cos((m\div&space;6&plus;d\div&space;180)\times&space;\pi))
