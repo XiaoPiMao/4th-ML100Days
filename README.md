@@ -93,3 +93,6 @@ One Hot Encoding 所需儲存空間和計算時間較大
 e.x.一年四季溫度正: 熱,負: 冷  
   
 ![](http://latex.codecogs.com/gif.latex?-cos((m\div&space;6&plus;d\div&space;180)\times&space;\pi))
+### Day28 特徵組合-數值與數值組合
+特徵工程決定機器學習的上限  
+特徵工程的關鍵在領域知識
