@@ -82,7 +82,7 @@ One Hot Encoding 所需儲存空間和計算時間較大
 類別特徵與目標有明顯相關時可以使用均值編碼  
 均值編碼會有Overfitting的問題  
 可以用平滑式調整加以修正  
-  
+
 ![](http://latex.codecogs.com/gif.latex?\frac{\overline{t}\times&space;tn&space;&plus;&space;\overline{a}\times&space;x}{tn&plus;x})  
 ### Day26 類別型特徵-進階處理
 * 記數編碼: 該欄位類別比數與目標正相關時
@@ -91,7 +91,7 @@ One Hot Encoding 所需儲存空間和計算時間較大
 常見時間型特徵: 把時間戳記拆分成年,月,日,...  
 可以用sin/cos的方式計算週期循環  
 e.x.一年四季溫度正: 熱,負: 冷  
-  
+
 ![](http://latex.codecogs.com/gif.latex?-cos((m\div&space;6&plus;d\div&space;180)\times&space;\pi))
 ### Day28 特徵組合-數值與數值組合
 特徵工程決定機器學習的上限  
@@ -103,4 +103,17 @@ e.x.一年四季溫度正: 熱,負: 冷
 |對象|Target|其他數值欄位|
 |可能Overfitting|O|X|
 |需要平滑化|O|X|
-> 機器學習的特徵是***寧濫勿缺***
+> 機器學習的特徵是***寧濫勿缺*** 
+
+### Day30 特徵選擇
+特徵選擇是減少特徵  
+特徵選擇三種方法
+* Filter
+* Wrapper
+* Embedded
+
+|  |計算速度|共線性|特徵穩定性|
+|:---|:---:|:---:|:---:|
+|相關係數Filter|快速|無法排除|穩定|
+|Lasso崁入法|快速|能排除|不穩定|
+|GDBT崁入法|較慢|能排除|穩定|
