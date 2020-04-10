@@ -130,3 +130,25 @@ Leaf Encoding可以將樹狀的葉節點做離散化得到新的特徵，一般�
 1. 定義模型
 2. 評估模型的好壞(Loss Function)
 3. 找出最好的參數
+
+### Day34 訓練/測試集切分
+一定要分訓練和測試集，要不然完全不知道訓練的測試結果，可能是underfitting或overfitting或特徵工程有待加強或需要更換一個模組
+
+```python
+#一般的切分
+sklearn.model_selection.train_test_split
+```
+K-fold Cross Validation
+|執行|是否為驗證|是否為驗證|是否為驗證|是否為驗證|是否為驗證|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|O|||||
+|2||O||||
+|3|||O|||
+|4||||O||
+|5|||||O|
+
+```python
+#K-fold Cross Validation
+sklearn.model_selection.KFold
+```
+
