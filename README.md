@@ -9,6 +9,7 @@
 產生隨機預測與誤差資料  
 平均絕對誤差 Mean Absolute Error mae()  
 平均平方誤差 Mean Squared Error mse()
+
 ### Day2
 DL∈ML∈AI  
 ML組成與應用:  
@@ -156,3 +157,22 @@ sklearn.model_selection.KFold
 回歸問題的目標是一個實數 e.x. 身高  
 分類問題的目標是哪一個分類 e.x. 矮 中等 高  
 Multi-label 是指每一筆資料可以為多個分類的組合
+
+### Day36 評估指標選定
+* 迴歸問題: 預測值 Prediction 與實際值 Ground truth 的差異
+	* MAE
+	* MSE
+	* R-square
+* 分類問題: Prediction 與 Ground truth 的正確程度
+  * AUC, Area Under Curve
+  * F1-Score
+
+    * Precision
+
+      ![](http://latex.codecogs.com/gif.latex?\frac{TP}{TP&plus;FP})
+
+    * Recall
+
+      ![](http://latex.codecogs.com/gif.latex?\frac{TP}{TP&plus;FN})
+
+
