@@ -159,7 +159,7 @@ sklearn.model_selection.KFold
 Multi-label 是指每一筆資料可以為多個分類的組合
 
 ### Day36 評估指標選定
-* 迴歸問題: 預測值 Prediction 與實際值 Ground truth 的差異
+* 回歸問題: 預測值 Prediction 與實際值 Ground truth 的差異
 	* MAE
 	* MSE
 	* R-square
@@ -175,4 +175,11 @@ Multi-label 是指每一筆資料可以為多個分類的組合
 
       ![](http://latex.codecogs.com/gif.latex?\frac{TP}{TP&plus;FN})
 
+### Day37 Linear Regression & Logistic Regression
+Linear Regression 適用於回歸問題
 
+![](http://latex.codecogs.com/gif.latex?\widehat{Y}_{i}=b_{0}&plus;b_{1}X_{i}})
+
+Logistic Regression 適用於分類問題
+
+![](http://latex.codecogs.com/gif.latex?P(y|x)=\frac{1}{1+e^{-yw^{T}x}})
