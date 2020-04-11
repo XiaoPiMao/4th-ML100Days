@@ -152,3 +152,7 @@ K-fold Cross Validation
 sklearn.model_selection.KFold
 ```
 
+### Day35 Regression vs Classifcation
+回歸問題的目標是一個實數 e.x. 身高  
+分類問題的目標是哪一個分類 e.x. 矮 中等 高  
+Multi-label 是指每一筆資料可以為多個分類的組合
