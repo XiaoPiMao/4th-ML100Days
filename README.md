@@ -209,3 +209,20 @@ LASSO和Ridge Regression都是用來懲罰高係數
 嶺回歸 Ridge Regression
 
 ![](http://latex.codecogs.com/gif.latex?LinearRegression+\alpha\sum(weights)^2)
+
+### Day40 LASSO,Ridge Regression程式碼
+```python
+#Lasso
+from sklearn.linear_model import Lasso
+lasso = Lasso(alpha=0.5)
+lasso.fit(x, y)
+print(lasso.coef_) #印出訓練後的係數
+```
+
+```python
+#Ridge
+from sklearn.linear_model import Ridge
+ridge = Ridge(alpha=0.5)
+ridge.fit(x, y)
+print(ridge.coef_) #印出訓練後的係數
+```
