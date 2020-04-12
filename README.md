@@ -183,3 +183,18 @@ Linear Regression 適用於回歸問題
 Logistic Regression 適用於分類問題
 
 ![](http://latex.codecogs.com/gif.latex?P(y|x)=\frac{1}{1+e^{-yw^{T}x}})
+
+### Day38 Regression程式碼
+
+```python
+#Linear Regression
+from sklearn_linear_model import LinearRegression
+reg = LinearRegression().fit(x, y)
+```
+
+```python
+#Logistic Regression
+from sklearn_linear_model import LogisticRegression
+reg = LogisticRegression().fit(x, y)
+```
+
