@@ -198,3 +198,14 @@ from sklearn_linear_model import LogisticRegression
 reg = LogisticRegression().fit(x, y)
 ```
 
+### Day39 LASSO,Ridge Regression
+
+LASSO和Ridge Regression都是用來懲罰高係數
+
+套索算法 LASSO
+
+![](http://latex.codecogs.com/gif.latex?LinearRegression+\alpha\sum|weights|)
+
+嶺回歸 Ridge Regression
+
+![](http://latex.codecogs.com/gif.latex?LinearRegression+\alpha\sum(weights)^2)
