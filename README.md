@@ -226,3 +226,12 @@ ridge = Ridge(alpha=0.5)
 ridge.fit(x, y)
 print(ridge.coef_) #印出訓練後的係數
 ```
+
+### Day41 決策樹
+做一個決策時可以讓資料內的分類更接近，例如要判斷是男生還是女生，以頭髮程度是否>= 50 做區分，很明顯的 >=50 的資料多數是女生， <50 的資料，這個可以稱為使訊息增益(Information Gain)
+那麼該使用哪個特徵來作為切分呢?
+可以使用切分後的訊息曾異性來判斷，一般有兩種計算方法，比較常用吉尼係數
+* Gini 吉尼係數
+![](http://latex.codecogs.com/gif.latex?I_{G}(t)=1-\sum^{c}_{i=1}p(i|t)^2)
+* Entropy 熵
+![](http://latex.codecogs.com/gif.latex?I_{H}(t)=-\sum^{c}_{i=1}p(i|t)log_2p(1|t))
