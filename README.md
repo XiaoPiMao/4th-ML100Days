@@ -232,6 +232,9 @@ print(ridge.coef_) #印出訓練後的係數
 那麼該使用哪個特徵來作為切分呢?
 可以使用切分後的訊息曾異性來判斷，一般有兩種計算方法，比較常用吉尼係數
 * Gini 吉尼係數
+
 ![](http://latex.codecogs.com/gif.latex?I_{G}(t)=1-\sum^{c}_{i=1}p(i|t)^2)
+
 * Entropy 熵
+
 ![](http://latex.codecogs.com/gif.latex?I_{H}(t)=-\sum^{c}_{i=1}p(i|t)log_2p(1|t))
