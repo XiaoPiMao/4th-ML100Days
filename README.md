@@ -238,3 +238,15 @@ print(ridge.coef_) #印出訓練後的係數
 * Entropy 熵
 
 ![](http://latex.codecogs.com/gif.latex?I_{H}(t)=-\sum^{c}_{i=1}p(i|t)log_2p(1|t))
+
+### Day42 決策樹程式碼
+```python
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.tree import DecisionTreeClassifier
+clf = DecisionTreeClassifier(
+	criterion='gini',
+	max_depth=3,
+	min_samples_split=6,
+	min_samples_leaf=3
+)
+```
