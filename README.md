@@ -254,3 +254,16 @@ clf = DecisionTreeClassifier(
 ### Day43 隨機森林
 
 每次取部分資料和特徵做n個決策樹後，再用投票的方式得到預測的結果，可以避免決策樹Overfitting問題
+
+### Day44 隨機森林程式碼
+```python
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier
+rcf = RandomForestClassifier(
+	n_estimators=10, #森林有幾棵決策樹
+	criterion='gini',
+	max_depth=3,
+	min_samples_split=6,
+	min_samples_leaf=3
+)
+```
